@@ -1,11 +1,20 @@
-" for pathogen
 call pathogen#infect()
 
 " Turn on syntax highlighting
 syntax enable
+
 filetype plugin indent on
+
+" == PaperColor ===
+set t_Co=256
+set background=light
+colorscheme PaperColor
+
+set hlsearch 
 set cursorcolumn
 set cursorline
+:highlight CursorColumn ctermbg=LightGray
+:highlight Cursorline ctermbg=LightGray cterm=NONE term=NONE
 
 " Show line numbers
 set number
@@ -20,25 +29,8 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
-" == vim-airline ===
-" let g:airline_powerline_fonts = 1
-" let g:airline#extensions#tabline#enabled = 1
-" let g:airline_theme='papercolor'
-" let g:Powerline_symbols = "fancy"
-" set guifont=DejaVu_Sans_Mono_for_Powerline:h10
-
-" === CtrlP ===
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-
-" === RSpec ===
-map <Leader>t :call RunCurrentSpecFile()<CR>
-map <Leader>s :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
+" Show line numbers
+set number
 
 " === EasyMotion ===
 " Disable default mappings
@@ -72,10 +64,22 @@ let g:NERDSpaceDelims = 1
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
 
-" vim-javascript
-" let g:javascript_plugin_jsdoc = 1
-let g:jsx_ext_required = 0
+" === RSpec ===
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
 
-" ALE
-" let g:ale_fixers = {}
-" let g:ale_fixers['javascript'] = ['prettier']
+" === CtrlP ===
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+" == vim-airline ===
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='papercolor'
+let g:Powerline_symbols = "fancy"
+set guifont=DejaVu_Sans_Mono_for_Powerline:h10
