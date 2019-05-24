@@ -11,9 +11,9 @@ set background=light
 colorscheme PaperColor
 
 set hlsearch 
-set cursorcolumn
+" set cursorcolumn
 set cursorline
-:highlight CursorColumn ctermbg=LightGray
+" :highlight CursorColumn ctermbg=LightGray
 :highlight Cursorline ctermbg=LightGray cterm=NONE term=NONE
 
 " Show line numbers
