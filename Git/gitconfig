@@ -1,0 +1,9 @@
+[user]
+  name = xyz
+  email = xyz@abc.com
+[core]
+  editor = vim
+[color]
+  ui = true
+[alias]
+  work = log --graph --pretty=format:'%C(yellow)%h%C(auto)%d%Creset %s %C(green)%an%Crest %C(blue)%ar%Creset'
