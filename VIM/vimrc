@@ -1,4 +1,20 @@
-call pathogen#infect()
+call plug#begin()
+
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'pangloss/vim-javascript'
+Plug 'thoughtbot/vim-rspec'
+" Plug 'mxw/vim-jsx'
+
+" Initialize plugin system
+call plug#end()
+
 
 " Turn on syntax highlighting
 syntax enable
