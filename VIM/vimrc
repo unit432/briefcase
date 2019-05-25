@@ -14,6 +14,7 @@ Plug 'tpope/vim-haml'
 Plug 'pangloss/vim-javascript'
 Plug 'thoughtbot/vim-rspec'
 Plug 'airblade/vim-gitgutter'
+Plug 'NLKNguyen/papercolor-theme'
 " Plug 'mxw/vim-jsx'
 
 " Initialize plugin system
