@@ -8,8 +8,12 @@ Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-haml'
 Plug 'pangloss/vim-javascript'
 Plug 'thoughtbot/vim-rspec'
+Plug 'airblade/vim-gitgutter'
 " Plug 'mxw/vim-jsx'
 
 " Initialize plugin system
