@@ -1,0 +1,16 @@
+version: '2'
+services:
+  database:
+    image: mysql:5.7
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    ports:
+      - 3306:3306
+
+  redis:
+    image: redis
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - 6379:6379
