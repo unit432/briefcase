@@ -15,6 +15,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'thoughtbot/vim-rspec'
 Plug 'airblade/vim-gitgutter'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'w0rp/ale'
 " Plug 'mxw/vim-jsx'
 
 " Initialize plugin system
@@ -103,3 +104,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='papercolor'
 let g:Powerline_symbols = "fancy"
 set guifont=DejaVu_Sans_Mono_for_Powerline:h10
+
+" == ale ===
+let g:ale_fixers = { 'javascript': ['prettier'], 'css': ['prettier'], }
+let g:ale_javascript_prettier_options = ''
