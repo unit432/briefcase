@@ -6,4 +6,4 @@
 [color]
   ui = true
 [alias]
-  work = log --graph --pretty=format:'%C(yellow)%h%C(auto)%d%Creset %s %C(green)%an%Crest %C(blue)%ar%Creset'
+  work = log --graph --pretty=format:'%C(yellow)%h%C(auto)%d%Creset %s %C(green)%an%Creset %C(blue)%ar%Creset'
