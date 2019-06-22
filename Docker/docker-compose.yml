@@ -1,16 +1,26 @@
-version: '2'
-services:
-  database:
-    image: mysql:5.7
-    command: --default-authentication-plugin=mysql_native_password
-    environment:
-      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
-    ports:
-      - 3306:3306
+version: '3.1'
 
-  redis:
-    image: redis
+services:
+  db:
+    image: mysql:5.7
+    container_name: mac-pro-mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
     environment:
-      - ALLOW_EMPTY_PASSWORD=yes
+      MYSQL_ROOT_PASSWORD: 'aaa'
     ports:
-      - 6379:6379
+      - 3309:3306
+    # volumes:
+      # - ./docker/my.cnf:/etc/mysql/my.cnf
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - 8080:80
+    restart: always
+    environment:
+      - PMA_ARBITRARY 1
+      - PMA_HOST 127.0.0.1
+      - PMA_PORT 3307
+      - PMA_USER root
+      - PMA_PASSWORD d0notenter
+      - MYSQL_ROOT_PASSWORD d0notenter
