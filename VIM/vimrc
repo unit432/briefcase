@@ -16,6 +16,7 @@ Plug 'thoughtbot/vim-rspec'
 Plug 'airblade/vim-gitgutter'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'w0rp/ale'
+Plug 'slim-template/vim-slim'
 " Plug 'mxw/vim-jsx'
 
 " Initialize plugin system
