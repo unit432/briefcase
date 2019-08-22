@@ -7,10 +7,10 @@ services:
     restart: always
     container_name: 'postgresql'
     environment:
-      POSTGRES_PASSWORD: top
+      POSTGRES_PASSWORD: 'top'
     ports:
-      - 54320:5432
+      - 5432:5432
     volumes:
-      - psql_data:/var/lib/postgresql/data
+      - pgdata:/var/lib/postgresql/data
 volumes:
-  psql_data:
+  pgdata:
