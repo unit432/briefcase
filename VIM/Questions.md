@@ -1,0 +1,2 @@
+- how to search multiple lines?
+- how to search and replace multiple lines?
