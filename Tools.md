@@ -10,3 +10,7 @@
 ### Other
 * [youtube-dl](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#read)
 * ffmpeg (trim video)
+
+### JS Library
+* [Full Calendar](https://fullcalendar.io/)
+* [Animate.css](https://daneden.github.io/animate.css/)
