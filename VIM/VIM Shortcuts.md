@@ -10,3 +10,5 @@
 |`g~~` | Invert case to entire line |
 |`>G` | command increases the indentation from the current line until the end of the file |
 |`daw`| Delete an Entire Word |
+|`A`| appends at the end of the current line |
+|`I`| appends at the beginning of the current line | 
