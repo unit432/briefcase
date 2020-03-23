@@ -13,4 +13,4 @@
 |`A`| appends at the end of the current line |
 |`I`| appends at the beginning of the current line | 
 | `;`| Repeat latest f, t, F or T [count] times. |
-| `,`| Repeat latest f, t, F or T in opposite direction |
+| `,`| Repeat latest f, t, F or T in opposite direction [count] times |
