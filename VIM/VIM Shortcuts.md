@@ -15,3 +15,5 @@
 | `;`| Repeat latest f, t, F or T [count] times. |
 | `,`| Repeat latest f, t, F or T in opposite direction [count] times |
 | `cW`| |
+|<C-a> | commands perform addition on numbers |
+|<C-x> | commands perform subtraction on numbers |
