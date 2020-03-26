@@ -17,3 +17,6 @@
 | `cW`| |
 |`<C-a>` | commands perform addition on numbers |
 |`<C-x>` | commands perform subtraction on numbers |
+|`c`| Delete text and start insert |
+|`dl`| Delete a single character and start insert |
+|`dap`| Delete an entire paragraph |
