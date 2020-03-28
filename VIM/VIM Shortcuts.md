@@ -26,6 +26,6 @@
 ### Insert Mode
 | Keystrokes        | Note |
 | :-------------: |:------------- |
-|<C-h>| Delete back one character (backspace)|
-|<C-w>| Delete back one word|
-|<C-u>| Delete back to start of line|
+|`<C-h>`| Delete back one character (backspace)|
+|`<C-w>`| Delete back one word|
+|`<C-u>`| Delete back to start of line|
