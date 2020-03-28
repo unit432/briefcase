@@ -19,4 +19,6 @@
 |`<C-x>` | commands perform subtraction on numbers |
 |`c`| Delete text and start insert |
 |`dl`| Delete a single character and start insert |
+|`ap`| motion acts upon a paragraph |
 |`dap`| Delete an entire paragraph |
+|`gUap`| make the whole paragraph uppercase|
