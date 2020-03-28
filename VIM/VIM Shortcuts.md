@@ -22,3 +22,10 @@
 |`ap`| motion acts upon a paragraph |
 |`dap`| Delete an entire paragraph |
 |`gUap`| make the whole paragraph uppercase|
+
+### Insert Mode
+| Keystrokes        | Note |
+| :-------------: |:------------- |
+|<C-h>| Delete back one character (backspace)|
+|<C-w>| Delete back one word|
+|<C-u>| Delete back to start of line|
