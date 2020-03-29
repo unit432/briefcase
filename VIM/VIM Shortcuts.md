@@ -38,3 +38,12 @@
 | :-------------: |:------------- |
 |`o`|Go to other end of highlighted text|
 |`vit`|visually select inside the tag|
+
+### Command-Line Mode
+| Keystrokes        | Note |
+| :-------------: |:------------- |
+|`:6t.`      | copy line 6 to just below the current line |
+|`:t6`       | copy the current line to just below line 6 |
+|`:t.`       | duplicate the current line |
+|`:t$`       | copy the current line to the end of the file |
+|`:'<,'>t0`  | copy the visually selected lines to the start of the file |
