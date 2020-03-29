@@ -22,10 +22,19 @@
 |`ap`| motion acts upon a paragraph |
 |`dap`| Delete an entire paragraph |
 |`gUap`| make the whole paragraph uppercase|
+|`gv`| Reselect the last visual selection |
 
 ### Insert Mode
 | Keystrokes        | Note |
 | :-------------: |:------------- |
-|`<C-h>`| Delete back one character (backspace)|
-|`<C-w>`| Delete back one word|
-|`<C-u>`| Delete back to start of line|
+|`<C-h>`| Delete back one character (backspace) (works in the bash shell)|
+|`<C-w>`| Delete back one word (works in the bash shell)|
+|`<C-u>`| Delete back to start of line (works in the bash shell)|
+|`<C-r>0`|paste the yanked text at the current cursor position|
+|`viw`|visually select the word|
+
+### Visual Mode
+| Keystrokes        | Note |
+| :-------------: |:------------- |
+|`o`|Go to other end of highlighted text|
+|`vit`|visually select inside the tag|
