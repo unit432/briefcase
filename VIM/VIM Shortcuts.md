@@ -47,3 +47,6 @@
 |`:t.`       | duplicate the current line |
 |`:t$`       | copy the current line to the end of the file |
 |`:'<,'>t0`  | copy the visually selected lines to the start of the file |
+|`:[range]move {address}`| Move the lines given by [range] to below the line given by {address} |
+|`:%normal A;`|append a semicolon at the end of every line of the file|
+|`:%normal i//`|append // at the end of every line of the file|
