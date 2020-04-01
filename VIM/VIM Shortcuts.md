@@ -1,5 +1,7 @@
+### Normal Mode
 | Keystrokes        | Note |
 | :-------------: |:------------- |
+|`gv`| Reselect the last visual selection |
 |`~` | Changes the case of current character |
 |`guu` | Change current line from upper to lower |
 |`gUU` | Change current LINE from lower to upper |
@@ -22,7 +24,6 @@
 |`ap`| motion acts upon a paragraph |
 |`dap`| Delete an entire paragraph |
 |`gUap`| make the whole paragraph uppercase|
-|`gv`| Reselect the last visual selection |
 
 ### Insert Mode
 | Keystrokes        | Note |
