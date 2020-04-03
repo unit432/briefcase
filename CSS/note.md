@@ -1,4 +1,4 @@
-#### Make the whole website gary
+#### Make the page gary
 
 ```CSS
 <style type="text/css">
