@@ -70,3 +70,17 @@
 |`:clo`|`<C-w>c`|Close the active window|
 |`:on`|`<C-w>o`|Keep only the active window, closing all others|
 
+
+### Tabs
+| Ex Command | Keystrokes | Effect |
+| :-------------: |:------------- | :-----------|
+|`tabn[ext] {N}`|`{N}gt`|Switch to tab page number {N}|
+|`:tabn[ext]`|`gt`|Switch to the next tab page|
+|`:tabp[revious]`|`gT`|Switch to the previous tab page|
+
+| Command | Effect |
+| :------:|:-------|
+|`:tabe[dit] {filename}`|Open {filename} in a new tab|
+|`:tabc[lose]`|Close the current tab page and all of its windows|
+|`:tabo[nly]`|Keep the active tab page, closing all others|
+
