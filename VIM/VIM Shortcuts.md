@@ -84,3 +84,8 @@
 |`:tabc[lose]`|Close the current tab page and all of its windows|
 |`:tabo[nly]`|Keep the active tab page, closing all others|
 
+
+### Files
+| Ex Command | Effect |
+| :-------------: | :-----------|
+|`:edit %:h<Tab>`|show full path of the current file’s directory to edit|
