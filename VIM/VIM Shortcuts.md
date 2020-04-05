@@ -16,7 +16,7 @@
 |`I`| appends at the beginning of the current line | 
 | `;`| Repeat latest f, t, F or T [count] times. |
 | `,`| Repeat latest f, t, F or T in opposite direction [count] times |
-| `cW`| |
+| `cW`| Change word |
 |`<C-a>` | commands perform addition on numbers |
 |`<C-x>` | commands perform subtraction on numbers |
 |`c`| Delete text and start insert |
@@ -51,3 +51,13 @@
 |`:[range]move {address}`| Move the lines given by [range] to below the line given by {address} |
 |`:%normal A;`|append a semicolon at the end of every line of the file|
 |`:%normal i//`|append // at the end of every line of the file|
+|`@:`|repeat the last Ex command|
+|`C-d`|reveal a list of possible completions|
+|`C-rC-w`|gets the word under the cursor|
+|`q:`|Open the command-line window with history of searches|
+|`q/`|Open the command-line window with history of Ex commands|
+|`:shell`| start an interactive shell session|
+|`exit`| exit from shell session|
+|`:!{cmd}`|Execute {cmd} with the shell|
+|`:read !{cmd}`|Execute {cmd} in the shell and insert its standard output below the cursor|
+|`:[range]write !{cmd}`|Execute {cmd} in the shell with [range] lines as standard input|
