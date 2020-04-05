@@ -24,6 +24,8 @@
 |`ap`| motion acts upon a paragraph |
 |`dap`| Delete an entire paragraph |
 |`gUap`| make the whole paragraph uppercase|
+|`C-^`|toggel between buffers|
+|`wa`| Write all modified buffers to disk |
 
 ### Insert Mode
 | Keystrokes        | Note |
@@ -61,3 +63,10 @@
 |`:!{cmd}`|Execute {cmd} with the shell|
 |`:read !{cmd}`|Execute {cmd} in the shell and insert its standard output below the cursor|
 |`:[range]write !{cmd}`|Execute {cmd} in the shell with [range] lines as standard input|
+
+### Windows
+| Ex Command | Keystrokes | Effect |
+| :-------------: |:------------- | :-----------|
+|`:clo`|`<C-w>c`|Close the active window|
+|`:on`|`<C-w>o`|Keep only the active window, closing all others|
+
