@@ -116,4 +116,5 @@
 |`` `] ``| End of last change or yank |
 |`` `< ``| Start of last visual selection |
 |`` `> ``| End of last visual selection |
+| `%` | jump between opening and closing sets of parentheses |
 
