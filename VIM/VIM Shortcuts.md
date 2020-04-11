@@ -45,6 +45,14 @@
 |`a"`| A pair of "double quotes"|`i"`|Inside of "double quotes"|
 |`` a` ``| A pair of `backticks`|`` i` ``|Inside of `backticks`|
 |`at`| A pair of <xml>tags</xml>|`it`|Inside of <xml>tags</xml>|
+
+| Keystrokes | Current... | Keystrokes | Current...|
+| :--------: |:---------- | :--------: |:----------|
+|`iw`|word|`aw`|word plus space(s)|
+|`iW`|WORD|`aW`|WORD plus space(s)|
+|`is`|sentence|`as`|sentence plus space(s)|
+|`ip`|paragraph|`ap`|paragraph plus blank line(s)|
+
   
   
   
