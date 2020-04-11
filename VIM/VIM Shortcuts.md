@@ -104,3 +104,16 @@
 | Ex Command | Effect |
 | :-------------: | :-----------|
 |`:edit %:h<Tab>`|show full path of the current file’s directory to edit|
+
+
+### Automatic Marks
+| Keystrokes | Buffer Contents |
+| :-------------: | :-----------|
+|`` `` ``| Position before the last jump within current file |
+|`` `. ``| Location of last change |
+|`` `^ ``| Location of last insertion |
+|`` `[ ``| Start of last change or yank |
+|`` `] ``| End of last change or yank |
+|`` `< ``| Start of last visual selection |
+|`` `> ``| End of last visual selection |
+
