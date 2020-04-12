@@ -110,3 +110,9 @@ set guifont=DejaVu_Sans_Mono_for_Powerline:h10
 " == ale ===
 let g:ale_fixers = { 'javascript': ['prettier'], 'css': ['prettier'], }
 let g:ale_javascript_prettier_options = '--single-quote=true'
+
+ " == disable arrow keys ==
+ " noremap <Up> <Nop>     
+ " noremap <Down> <Nop>
+ " noremap <Left> <Nop>
+ " noremap <Right> <Nop>
