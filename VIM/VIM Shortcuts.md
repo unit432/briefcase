@@ -118,3 +118,14 @@
 |`` `> ``| End of last visual selection |
 | `%` | jump between opening and closing sets of parentheses |
 
+
+
+| Command | Effect |
+| :-------------: | :-----------|
+|`%`| Jump to matching parenthesis |
+|`(/)`| Jump to start of previous/next sentence|
+|`{/}`| Jump to start of previous/next paragraph|
+|`H/M/L`| Jump to top/middle/bottom of screen|
+|`gf`| Jump to file name under the cursor|
+|`<C-]>`| Jump to definition of keyword under the cursor|
+|`` ’{mark} `` / `` `{mark} `` | Jump to a mark|
