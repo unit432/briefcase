@@ -137,4 +137,4 @@
 |`"0`| The Yank Register |
 |`""`| The Unnamed Register |
 |`"a–"z`| The Named Registers (_"ayiw_)|
-| `"_` | The Black Hole Register (_ "_diw _)|
+| `"_` | The Black Hole Register ("_diw)|
