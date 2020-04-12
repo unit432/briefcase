@@ -129,3 +129,12 @@
 |`gf`| Jump to file name under the cursor|
 |`<C-]>`| Jump to definition of keyword under the cursor|
 |`` ’{mark} `` / `` `{mark} `` | Jump to a mark|
+
+
+### Register
+| Register |  |
+| :-------------: | :-----------|
+|`"0`| The Yank Register |
+|`""`| The Unnamed Register |
+|`"a–"z`| The Named Registers (_"ayiw_)|
+| `"_` | The Black Hole Register (_"_diw_)|
