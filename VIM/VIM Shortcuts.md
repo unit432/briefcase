@@ -19,6 +19,7 @@
 |`dl`| Delete a single character and start insert |
 |`C-^`|toggel between buffers|
 |`wa`| Write all modified buffers to disk |
+|`*`|Search current word|
 
 ### Insert Mode
 | Keystrokes        | Note |
