@@ -139,3 +139,8 @@
 |`""`| The Unnamed Register |
 |`"a–"z`| The Named Registers (_"ayiw_)|
 | `"_` | The Black Hole Register ("_diw)|
+
+### Search
+| Command |  |
+|`gn`| Enable character-wise Visual mode and select next search match |
+|`gN`| Enable character-wise Visual mode and select previous search match |
