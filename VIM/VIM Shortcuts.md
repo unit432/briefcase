@@ -134,7 +134,7 @@
 
 ### Register
 | Register |  |
-| :-------------: | :-----------|
+
 |`"0`| The Yank Register |
 |`""`| The Unnamed Register |
 |`"a–"z`| The Named Registers (_"ayiw_)|
@@ -142,5 +142,6 @@
 
 ### Search
 | Command |  |
+| :-------------: | :-----------|
 |`gn`| Enable character-wise Visual mode and select next search match |
 |`gN`| Enable character-wise Visual mode and select previous search match |
