@@ -17,3 +17,6 @@
 
 ### Gem
 * https://github.com/rwz/nestive
+
+### Video Player
+https://github.com/mpv-player/mpv
