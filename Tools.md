@@ -12,7 +12,7 @@
 * ffmpeg (trim video)
 
 ### JS Library
-* [Full Calendar](https://fullcalendar.io/)
+* [Full Calendar (JavaScript Calendar)](https://fullcalendar.io/)
 * [Animate.css](https://daneden.github.io/animate.css/)
 
 ### Gem
