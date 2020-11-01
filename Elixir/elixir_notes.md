@@ -8,6 +8,8 @@
 ### Anonymous functions
 * `add = fn a, b -> a + b end`
 * `add.(1, 2)`       => 3`
-* `is_function(add)` => true`
+* `is_function(add)` => true
 
 
+* Single quotes are charlists, double quotes are strings. 
+* `'hello' == "hello"` => false
