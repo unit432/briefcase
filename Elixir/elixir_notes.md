@@ -7,7 +7,7 @@
 
 ### Anonymous functions
 * `add = fn a, b -> a + b end`
-* `add.(1, 2)`       => 3`
+* `add.(1, 2)`       => 3
 * `is_function(add)` => true
 
 
