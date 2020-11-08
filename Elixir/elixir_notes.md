@@ -1,4 +1,3 @@
-* `iex` to run console
 * `operator /` always returns a float. Using `div` and `rem` functions to do integer division or get the division remainder.
 *  `h round/1` in console to access documentation
 * use `is_integer/1`, `is_float/1` or `is_number/1` to check if an argument is an integer, a float, or either.
@@ -18,3 +17,7 @@
 * `tuple_size {:ok, "hello"}` => 2
 * `elem(tuple, 1)` => "hello"
 * `put_elem(tuple, 1, "world")` => {:ok, "world"}
+
+### IEX
+* run `iex` to start console
+* `Ctrl-C` to exit console
