@@ -20,3 +20,6 @@
 
 ### Video Player
 * [mpv](https://github.com/mpv-player/mpv)
+
+### Mac
+* `diskutil list` list all discks
