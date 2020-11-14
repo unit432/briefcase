@@ -5,6 +5,8 @@
 * use the `i/1` to retrieve information about a variable in IEx.
 * Single quotes are charlists, double quotes are strings. 
 * `'hello' == "hello"` => false
+* number < atom < reference < function < port < pid < tuple < map < list < bitstring
+
 
 ### Anonymous functions
 * `add = fn a, b -> a + b end`
@@ -16,6 +18,14 @@
 * `tuple_size {:ok, "hello"}` => 2
 * `elem(tuple, 1)` => "hello"
 * `put_elem(tuple, 1, "world")` => {:ok, "world"}
+* Tuples are stored contiguously in memory. Getting size or accessing an element is fast. But, updating or addinng element is expensive.
+
+### List
+* list = [1, 2, 3]
+* List are stored as linked lists. 
+* [1, 2, 3] ++ [4, 5, 6] => [1, 2, 3, 4, 5, 6]
+* [1, 3, 2] -- [2] => [1, 3]
+
 
 ### IEX
 * run `iex` to start console
