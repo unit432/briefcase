@@ -6,6 +6,7 @@
 * Single quotes are charlists, double quotes are strings. 
 * `'hello' == "hello"` => false
 * number < atom < reference < function < port < pid < tuple < map < list < bitstring
+* String (binary) concatenation uses the <> operator but charlists, lists, use list concatenation operator ++:
 
 
 ### Anonymous functions
@@ -21,10 +22,10 @@
 * Tuples are stored contiguously in memory. Getting size or accessing an element is fast. But, updating or addinng element is expensive.
 
 ### List
-* list = [1, 2, 3]
+* `list = [1, 2, 3]`
 * List are stored as linked lists. 
-* [1, 2, 3] ++ [4, 5, 6] => [1, 2, 3, 4, 5, 6]
-* [1, 3, 2] -- [2] => [1, 3]
+* `[1, 2, 3] ++ [4, 5, 6]` => [1, 2, 3, 4, 5, 6]
+* `[1, 3, 2] -- [2]` => [1, 3]
 
 
 ### IEX
@@ -38,4 +39,7 @@
 ### The pin operator (^)
 * to pattern match against a variable’s existing value rather than rebinding the variable.
 
-
+### Maps
+* `map = %{:a => 12, 2 => :b}`
+* `map[:a]` => 12 
+* `%{map | 2 => "two"}` => %{2 => "two", :a => 1} 
