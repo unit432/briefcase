@@ -31,3 +31,11 @@
 * run `iex` to start console
 * `Ctrl-C` to exit console
 *  `h round/1` in console to access documentation
+
+### The match operator (=)
+* `{:ok, result} = {:ok, 13}` asserts that the left side will only match the right side when the right side is a tuple that starts with the atom :ok
+
+### The pin operator (^)
+* to pattern match against a variable’s existing value rather than rebinding the variable.
+
+
