@@ -42,4 +42,26 @@
 ### Maps
 * `map = %{:a => 12, 2 => :b}`
 * `map[:a]` => 12 
+* `map.a` => 12
 * `%{map | 2 => "two"}` => %{2 => "two", :a => 1} 
+
+### do/end blocks
+* `if false, do: :this, else: :that` => :that
+
+### Function capturing
+* `fun = &(&1 + 1)` &1 represents the first argument passed into the function. `fun.(1)` => 2
+
+### Default arguments
+  ```elixir  
+  def dowork(x \\ "hello") do
+    x
+  end
+  ```
+### Recursion
+```elixir
+defmodule Fibonacci do 
+  def fib(0) do 0 end
+  def fib(1) do 1 end
+  def fib(n) do fib(n-1) + fib(n-2) end
+end
+```
