@@ -65,3 +65,31 @@ defmodule Fibonacci do
   def fib(n) do fib(n-1) + fib(n-2) end
 end
 ```
+### Enumerables and Streams
+* `|>` pipe operator. 
+* `1..100_000 |> Enum.map(&(&1 * 3)) |> Enum.filter(odd?) |> Enum.sum` => 7515007500
+* `1..100_000 |> Stream.map(&(&1 * 3)) |> Stream.filter(odd?) |> Enum.sum` => 7500000000
+* streams can be very useful for handling large files or even slow resources like network resources.
+
+### Processes
+* Processes are isolated from each other, run concurrent to one another and communicate via message passing.
+* `pid = spawn fn -> 1 + 2 end`
+* `Process.alive?(pid)` => false
+
+#### `send` and `receive`
+```elixir
+receive do
+  {:hello, msg}  -> msg
+after
+  1_000 -> "nothing after 1s"
+end
+```
+#### Links
+`spawn_link fn -> raise "oops" end`
+
+#### Tasks
+#### State
+
+
+
+
