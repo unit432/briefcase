@@ -96,7 +96,7 @@ end
 * `IO.puts(:stderr, "hello world")`
 
 #### File module
-*`File.read/1` vs `File.read!/1`. The version with ! returns the contents of the file instead of a tuple, and if anything goes wrong the function raises an error. The version without ! is preferred when you want to handle different outcomes using pattern matching
+* `File.read/1` vs `File.read!/1`. The version with ! returns the contents of the file instead of a tuple, and if anything goes wrong the function raises an error. The version without ! is preferred when you want to handle different outcomes using pattern matching
 
 
 
