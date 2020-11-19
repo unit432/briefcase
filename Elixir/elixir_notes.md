@@ -98,7 +98,23 @@ end
 #### File module
 * `File.read/1` vs `File.read!/1`. The version with ! returns the contents of the file instead of a tuple, and if anything goes wrong the function raises an error. The version without ! is preferred when you want to handle different outcomes using pattern matching
 
+### alias, require, and import
+#### alias
+* `alias Math.List, as: List`
+* `alias MyApp.{Foo, Bar, Baz}`
+* `alias Math.List` is the same as `alias Math.List as List`
+* `alias` is lexically scoped, which allows you to set aliases inside specific functions.
 
+#### require
+* `require` is lexically
+
+#### import
+* `import` is lexically
+* `import List, only: [duplicate: 2]`
+* `import List, except: [duplicate: 2]`
+* `import`ing a module automatically requires it.
+
+#### use
 
 
 
