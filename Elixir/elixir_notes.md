@@ -117,5 +117,37 @@ end
 #### use
 
 
+### Module attributes
+#### As annotations
+```elixir
+defmodule Math do
+  @moduledoc """
+  Provides math-related functions.
 
+  ## Examples
 
+      iex> Math.sum(1, 2)
+      3
+
+  """
+
+  @doc """
+  Calculates the sum of two numbers.
+  """
+  def sum(a, b), do: a + b
+end
+```
+
+#### As “constants”
+``` elixir
+defmodule MyServer do
+  @my_data 14
+  def first_data, do: @my_data
+  @my_data 13
+  def second_data, do: @my_data
+end
+
+MyServer.first_data #=> 14
+MyServer.second_data #=> 13
+```
+#### As temporary storage
