@@ -151,3 +151,45 @@ MyServer.first_data #=> 14
 MyServer.second_data #=> 13
 ```
 #### As temporary storage
+
+### Structs
+* Structs **only** take the name of the module they’re defined in. 
+``` elixir
+iex> defmodule User do
+...>   defstruct name: "John", age: 27
+...> end
+```
+
+* enforce that certain keys
+``` elixir
+iex> defmodule Car do
+...>   @enforce_keys [:make]
+...>   defstruct [:model, :make]
+...> end
+iex> %Car{}
+** (ArgumentError) the following keys must also be given when building struct 
+Car: [:make]
+    expanding struct: Car.__struct__/1
+``` 
+
+### Protocols
+* a mechanism to achieve polymorphism
+``` elixir
+defprotocol Size do
+  @doc "Calculates the size (and not the length!) of a data structure"
+  def size(data)
+end
+
+defimpl Size, for: BitString do
+  def size(string), do: byte_size(string)
+end
+
+defimpl Size, for: Map do
+  def size(map), do: map_size(map)
+end
+
+defimpl Size, for: Tuple do
+  def size(tuple), do: tuple_size(tuple)
+end
+```
+
