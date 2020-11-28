@@ -23,7 +23,7 @@
 
 ### Mac
 * `diskutil list` list all discks
-* [OpenEmu] (https://github.com/OpenEmu/OpenEmu)
+* [OpenEmu](https://github.com/OpenEmu/OpenEmu)
 
 ### UI Design Tool
 * www.figma.com
