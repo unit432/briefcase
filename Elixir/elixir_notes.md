@@ -7,6 +7,7 @@
 * `'hello' == "hello"` => false
 * number < atom < reference < function < port < pid < tuple < map < list < bitstring
 * String (binary) concatenation uses the <> operator but charlists, lists, use list concatenation operator ++:
+* `<<>>` binary / bitstring constructor
 
 
 ### Anonymous functions
@@ -192,4 +193,14 @@ defimpl Size, for: Tuple do
   def size(tuple), do: tuple_size(tuple)
 end
 ```
+### Comprehensions
+* A comprehension is made of three parts: generators, filters, and collectables. Example: `for n <- [1, 2, 3, 4], do: n * n`
+
+### Sigils
+#### Regular expressions
+#### Strings, char lists, and word lists sigils
+#### Calendar sigils
+* `d = ~D[2019-10-31]`
+* `~T[23:00:07.0]`
+
 
