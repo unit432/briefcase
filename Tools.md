@@ -3,6 +3,7 @@
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [tmux](https://github.com/tmux/tmux)
 - [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
+- `rsync -avzP sourceDirectory destinationDirectory`
 
 ### Editor
 - VIM
