@@ -207,3 +207,8 @@ end
 * The `after` clause will be executed regardless of whether or not the tried block succeeds.
 * Elixir will automatically wrap the function body in a `try` whenever one of `after`, `rescue` or `catch` is specified.
 
+### Typespecs and behaviours
+#### Behaviours
+* define a set of functions that have to be implemented by a module;
+* ensure that a module implements all the functions in that set.
+
