@@ -203,4 +203,7 @@ end
 * `d = ~D[2019-10-31]`
 * `~T[23:00:07.0]`
 
+### try, catch, and rescue
+* The `after` clause will be executed regardless of whether or not the tried block succeeds.
+* Elixir will automatically wrap the function body in a `try` whenever one of `after`, `rescue` or `catch` is specified.
 
