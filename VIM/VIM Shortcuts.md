@@ -133,8 +133,8 @@
 
 
 ### Register
-| Register |  |
-
+| Register | |
+| :---------: | :--------- |
 |`"0`| The Yank Register |
 |`""`| The Unnamed Register |
 |`"a–"z`| The Named Registers (_"ayiw_)|
