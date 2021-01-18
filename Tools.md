@@ -28,3 +28,6 @@
 
 ### UI Design Tool
 * www.figma.com
+
+### Typing speed test
+* typespeed (linux command)
