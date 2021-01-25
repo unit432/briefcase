@@ -20,6 +20,7 @@
 |`C-^`|toggel between buffers|
 |`wa`| Write all modified buffers to disk |
 |`*`|Search current word|
+|`dvb`|Delete full word backwards|
 
 ### Insert Mode
 | Keystrokes        | Note |
