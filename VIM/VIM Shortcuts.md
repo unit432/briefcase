@@ -21,6 +21,7 @@
 |`wa`| Write all modified buffers to disk |
 |`*`|Search current word|
 |`dvb`|Delete full word backwards|
+|`ggVGJ`|Join all lines into a single line|
 
 ### Insert Mode
 | Keystrokes        | Note |
