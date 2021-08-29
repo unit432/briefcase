@@ -11,6 +11,7 @@
 ### Other
 * [youtube-dl](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#read)
 * ffmpeg (trim video)
+  * `ffmpeg -ss [start_time] -i abc.mp4 -to [end time] -c copy -copyts abc-out.mp4` (time format: 00:15:24)
 
 ### JS Library
 * [Full Calendar (JavaScript Calendar)](https://fullcalendar.io/)
