@@ -30,3 +30,6 @@
 
 ### Typing speed test
 * typespeed (linux command)
+
+### Other
+Graphing Calculator https://www.desmos.com/
