@@ -61,24 +61,6 @@ let g:EasyMotion_do_mapping = 0
 map <Leader> <Plug>(easymotion-prefix)
 nmap s <Plug>(easymotion-overwin-f2)
 
-" Line motions
-" map <Leader>l <Plug>(easymotion-lineforward)
-map <Leader>j <Plug>(easymotion-j)
-map <Leader>k <Plug>(easymotion-k)
-map <Leader>h <Plug>(easymotion-lineanywhere)
-
-" Move to line
-map <Leader>L <Plug>(easymotion-bd-jk)
-nmap <Leader>L <Plug>(easymotion-overwin-line)
-
-" Move to word
-map  <Leader>w <Plug>(easymotion-bd-w)
-nmap <Leader>w <Plug>(easymotion-overwin-w)
-
-" <Leader>f{char} to move to {char}
-map  <Leader>f <Plug>(easymotion-bd-f)
-nmap <Leader>f <Plug>(easymotion-overwin-f)
-
 " == NERD Commenter ===
 " Add spaces after comment delimiters by defaultAdd spaces after comment
 " delimiters by default
