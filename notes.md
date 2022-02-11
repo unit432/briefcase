@@ -6,5 +6,3 @@
 1. Download `Entware App`: https://github.com/Entware/Entware/wiki/Install-on-QNAP-NAS
 2. Install `Entware` manually in `App Center` on Qnap UI
 3. run `opkg install rsnapshot`
-
-https://www.levels.fyi/
