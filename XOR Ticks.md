@@ -1,5 +1,5 @@
-X ^ 0 = 0
-X ^ X = 0
-X ^ Y = Y ^ X
+1. X ^ 0 = 0
+2. X ^ X = 0
+3. X ^ Y = Y ^ X
 
-A ^ B ^ C ... will remove all duplicated values
+4. A ^ B ^ C ... will remove all duplicated values
