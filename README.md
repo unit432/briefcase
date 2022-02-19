@@ -9,3 +9,4 @@
 ## Notes
 * [Vim](https://github.com/unit432/briefcase/blob/master/VIM/VIM%20Shortcuts.md)
 * [Elixir](https://github.com/unit432/briefcase/blob/master/Elixir/elixir_notes.md)
+* [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code)
