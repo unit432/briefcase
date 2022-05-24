@@ -33,3 +33,8 @@
 
 ### Other
 Graphing Calculator https://www.desmos.com/
+
+
+### Chrome Plugins
+* https://github.com/gorhill/uBlock
+* [Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg?hl=en)
