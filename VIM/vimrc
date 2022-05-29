@@ -16,8 +16,9 @@ Plug 'thoughtbot/vim-rspec'
 Plug 'airblade/vim-gitgutter'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'dense-analysis/ale'
-Plug 'slim-template/vim-slim'
 Plug 'elixir-editors/vim-elixir'
+Plug 'slim-template/vim-slim'
+Plug 'kchmck/vim-coffee-script'
 " Plug 'mxw/vim-jsx'
 
 " Initialize plugin system
@@ -90,11 +91,11 @@ let g:Powerline_symbols = "fancy"
 set guifont=DejaVu_Sans_Mono_for_Powerline:h10
 
 " == ale ===
-let g:ale_fixers = { 'javascript': ['prettier'], 'css': ['prettier'], }
+let g:ale_fixers = { 'javascript': ['prettier'], 'css': ['prettier'] }
 let g:ale_javascript_prettier_options = '--single-quote=true'
 
 " == disable arrow keys ==
-noremap <Up> <Nop>     
+noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
