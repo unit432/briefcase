@@ -37,7 +37,7 @@ colorscheme PaperColor
 set hlsearch 
 set cursorcolumn
 set cursorline
-:highlight CursorColumn guibg=lightgray cterm=NONE term=NONE
+:highlight CursorColumn guibg=#EDEDED cterm=NONE term=NONE
 :highlight Cursorline guibg=#404040 cterm=NONE term=NONE
 
 " Show line numbers
