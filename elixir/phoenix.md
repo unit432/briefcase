@@ -28,3 +28,9 @@ mix phx.server
 ```
 iex -S mix phx.server
 ```
+
+
+
+## Links
+https://hexdocs.pm/ecto/getting-started.html
+https://hexdocs.pm/phoenix/installation.html
