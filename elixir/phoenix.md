@@ -2,21 +2,29 @@
 ``` bash
 mix archive.install hex phx_new
 ```
+## setup new app
 
+1. create new application
+```
+mix phx.new hello_world
+```
 
-We are almost there! The following steps are missing:                                                                                                                                                                                                                         
-                                                                   
-    $ cd van_school_ranking                                                                                                            
-    $ cd assets && npm install && node node_modules/webpack/bin/webpack.js --mode development                                          
-                                                                                                                                       
-Then configure your database in config/dev.exs and run:                                                                                
-                                                                   
-    $ mix ecto.create                                                                                                                  
-                                                                                                                                       
-Start your Phoenix app with:                                                                                                           
-                                                                                                                                       
-    $ mix phx.server                                  
-                                                                   
-You can also run your app inside IEx (Interactive Elixir) as:
-                                                                                                                                       
-    $ iex -S mix phx.server  
+2. change directory
+```
+cd van_school_ranking
+```
+
+3. configure database
+```
+mix ecto.create
+```
+
+4. start app
+```
+mix phx.server
+```
+
+4. OR run your app inside IEx (Interactive Elixir)
+```
+iex -S mix phx.server
+```
