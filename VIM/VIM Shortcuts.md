@@ -30,13 +30,14 @@
 |`<C-w>`| Delete back one word (works in the bash shell)|
 |`<C-u>`| Delete back to start of line (works in the bash shell)|
 |`<C-r>0`|paste the yanked text at the current cursor position|
-|`viw`|visually select the word|
+
 
 ### Visual Mode
 | Keystrokes        | Note |
 | :-------------: |:------------- |
 |`o`|Go to other end of highlighted text|
 |`vit`|visually select inside the tag|
+|`viw`|visually select the word|
 
 | Text Object        | Selection |  Text Object  | Selection |
 | :-------------: |:------------- | :-------------: | :-------------: |

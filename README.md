@@ -4,6 +4,7 @@
 #### Elixir & Phoenix
 * [https://twitter.com/elixirphoenix](https://twitter.com/elixirphoenix)
 * [https://twitter.com/elixirlang](https://twitter.com/elixirlang)
+* [Tmux Plugins](https://github.com/tmux-plugins/list)
 
 
 ## Notes
