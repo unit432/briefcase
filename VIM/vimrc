@@ -16,9 +16,11 @@ Plug 'thoughtbot/vim-rspec'
 Plug 'airblade/vim-gitgutter'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'dense-analysis/ale'
-Plug 'slim-template/vim-slim'
 Plug 'elixir-editors/vim-elixir'
+Plug 'slim-template/vim-slim'
+Plug 'kchmck/vim-coffee-script'
 " Plug 'mxw/vim-jsx'
+Plug 'maxmellon/vim-jsx-pretty'
 
 " Initialize plugin system
 call plug#end()
@@ -34,9 +36,9 @@ set background=light
 colorscheme PaperColor
 
 set hlsearch 
-" set cursorcolumn
+set cursorcolumn
 set cursorline
-" :highlight CursorColumn guibg=#404040 cterm=NONE term=NONE
+:highlight CursorColumn guibg=#EDEDED cterm=NONE term=NONE
 :highlight Cursorline guibg=#404040 cterm=NONE term=NONE
 
 " Show line numbers
@@ -90,11 +92,11 @@ let g:Powerline_symbols = "fancy"
 set guifont=DejaVu_Sans_Mono_for_Powerline:h10
 
 " == ale ===
-let g:ale_fixers = { 'javascript': ['prettier'], 'css': ['prettier'], }
+let g:ale_fixers = { 'javascript': ['prettier'], 'css': ['prettier'] }
 let g:ale_javascript_prettier_options = '--single-quote=true'
 
 " == disable arrow keys ==
-noremap <Up> <Nop>     
+noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
