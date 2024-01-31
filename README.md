@@ -12,6 +12,7 @@
 * [Vim](https://github.com/unit432/briefcase/blob/master/VIM/VIM%20Shortcuts.md)
 * [Elixir](https://github.com/unit432/briefcase/blob/master/Elixir/elixir_notes.md)
 * [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code)
+* [https://dbdiagram.io/](https://dbdiagram.io/) 
 
 ##
 * [SoftVC 4.0](https://github.com/justinjohn0306/so-vits-svc-4.0-v2)
