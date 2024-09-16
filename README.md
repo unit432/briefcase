@@ -22,3 +22,7 @@ reek --todo
 
 ## Vim Fonts
 https://github.com/powerline/fonts/blob/master/Cousine/Cousine%20for%20Powerline.ttf
+
+##
+bundle exec rails stimulus:manifest:update
+
