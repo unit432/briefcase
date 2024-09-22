@@ -26,3 +26,15 @@ https://github.com/powerline/fonts/blob/master/Cousine/Cousine%20for%20Powerline
 ##
 bundle exec rails stimulus:manifest:update
 
+##
+To keep the mpv window open
+```
+mkdir -p ~/.config/mpv
+touch ~/.config/mpv/mpv.conf
+```
+add
+```
+idle=yes
+force-window=yes
+```
+
