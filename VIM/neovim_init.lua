@@ -25,9 +25,8 @@ vim.o.shiftwidth = 2                 -- Set number of spaces for indentation
 vim.o.softtabstop = 2               -- Set number of spaces for a tab                                   
 vim.o.expandtab = true              -- Use spaces instead of tabs                                       
 
-
-
-                                                                                                        
+-- Set space as the leader key
+vim.g.mapleader = " "  -- Set leader key to space                                                                                                     
                                                                                                         
 -- Lazy.nvim Bootstrap                                                                                  
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"                                            
@@ -41,4 +40,4 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     lazypath,                                                                                           
   })                                                                                                    
 end                                                                                                     
-vim.opt.rtp:prepend(lazypath)                                                                           
+vim.opt.rtp:prepend(lazypath)
