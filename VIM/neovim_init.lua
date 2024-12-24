@@ -24,9 +24,9 @@ vim.o.autoindent = true              -- Enable auto-indentation
 vim.o.shiftwidth = 2                 -- Set number of spaces for indentation                            
 vim.o.softtabstop = 2               -- Set number of spaces for a tab                                   
 vim.o.expandtab = true              -- Use spaces instead of tabs                                       
-                                                                                                        
--- Show line numbers again (redundant, but included as per your config)                                 
-vim.o.number = true                -- Show line numbers again (redundant, can be omitted)               
+
+
+
                                                                                                         
                                                                                                         
 -- Lazy.nvim Bootstrap                                                                                  
