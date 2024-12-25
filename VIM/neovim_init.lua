@@ -1,3 +1,6 @@
+-- brew install ripgrep
+
+
 -- Show line numbers
 vim.o.number = true              -- Show line numbers
 
