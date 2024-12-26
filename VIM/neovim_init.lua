@@ -90,6 +90,20 @@ local plugins = {
     config = function()
       require('telescope').setup {
         defaults = {
+          mappings = {
+            i = { -- Insert mode
+              ["<C-j>"] = require("telescope.actions").move_selection_next,
+              ["<C-k>"] = require("telescope.actions").move_selection_previous,
+              ["<C-h>"] = require("telescope.actions").cycle_history_prev,
+              ["<C-l>"] = require("telescope.actions").cycle_history_next,
+            },
+            n = { -- Normal mode
+              ["j"] = require("telescope.actions").move_selection_next,
+              ["k"] = require("telescope.actions").move_selection_previous,
+              ["h"] = require("telescope.actions").cycle_history_prev,
+              ["l"] = require("telescope.actions").cycle_history_next,
+            },
+          },
           vimgrep_arguments = {
             "rg",
             "--color=never",
@@ -195,6 +209,7 @@ local plugins = {
           delay = 1000,
           ignore_whitespace = false,
         },
+        current_line_blame = false, -- Disable inline blame
         current_line_blame_formatter = '<author>, <author_time:%Y-%m-%d> - <summary>',
         sign_priority = 6,
         update_debounce = 100,
