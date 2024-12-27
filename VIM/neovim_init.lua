@@ -279,3 +279,6 @@ vim.keymap.set("n", "<leader>bd", ":bdelete<CR>", { desc = "Delete buffer" })
 
 -- Reopen the last buffer
 vim.keymap.set("n", "<leader>bl", ":b#<CR>", { desc = "Last buffer" })
+
+-- Open Lazy
+vim.keymap.set("n", "<leader>pl", ":Lazy<CR>", { desc = "Open Lazy.nvim" })
