@@ -4,26 +4,31 @@
 
 
 -- Show line numbers
-vim.o.number = true              -- Show line numbers
+vim.o.number = true
 
 -- Enable True Color
 vim.o.termguicolors = true
 
--- Encoding
-vim.o.encoding = 'utf-8'         -- Set file encoding to UTF-8
+-- Set file encoding to UTF-8
+vim.o.encoding = 'utf-8'
 
--- Whitespace settings
-vim.o.backspace = 'indent,eol,start'  -- Configure backspace behavior
-vim.o.autoindent = true              -- Enable auto-indentation
-vim.o.shiftwidth = 2                 -- Set number of spaces for indentation
-vim.o.softtabstop = 2               -- Set number of spaces for a tab
-vim.o.expandtab = true              -- Use spaces instead of tabs
+-- Configure backspace behavior
+vim.o.backspace = 'indent,eol,start'
 
--- Show line numbers again (redundant, but included as per your config)
-vim.o.number = true                -- Show line numbers again (redundant, can be omitted)
+-- Enable auto-indentation
+vim.o.autoindent = true
+
+-- Set number of spaces for indentation
+vim.o.shiftwidth = 2
+
+-- Set number of spaces for a tab
+vim.o.softtabstop = 2
+
+-- Use spaces instead of tabs
+vim.o.expandtab = true
 
 -- Set space as the leader key
-vim.g.mapleader = " "  -- Set leader key to space
+vim.g.mapleader = " "
 
 
 -- Lazy.nvim Bootstrap
