@@ -1,5 +1,8 @@
 -- brew install ripgrep
+-- gem install ruby-lsp
 -- run: git config --global core.editor "nvim"
+
+
 -- Show line numbers
 vim.o.number = true              -- Show line numbers
 
