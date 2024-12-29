@@ -1,4 +1,5 @@
 -- brew install ripgrep
+-- run: git config --global core.editor "nvim"
 -- Show line numbers
 vim.o.number = true              -- Show line numbers
 
