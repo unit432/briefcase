@@ -37,3 +37,7 @@ idle=yes
 force-window=yes
 ```
 
+## Terminal
+https://iterm2.com/downloads.html
+https://github.com/ghostty-org/ghostty?tab=readme-ov-file
+
