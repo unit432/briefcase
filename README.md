@@ -41,3 +41,5 @@ force-window=yes
 https://iterm2.com/downloads.html
 https://github.com/ghostty-org/ghostty?tab=readme-ov-file
 
+REF:
+https://github.com/prdanelli/dotfiles

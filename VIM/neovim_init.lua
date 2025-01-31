@@ -3,6 +3,8 @@
 -- run: git config --global core.editor "nvim"
 
 
+vim.o.mouse = ""
+
 -- Show line numbers
 vim.o.number = true
 
@@ -66,9 +68,9 @@ local plugins = {
       -- Define buttons for quick access actions
       dashboard.section.buttons.val = {
         dashboard.button("e", "  New File", ":ene <BAR> startinsert <CR>"),
-        dashboard.button("r", "  Recent Files", ":Telescope oldfiles<CR>"),
+        dashboard.button("o", "  Recent Files", ":Telescope oldfiles<CR>"),
         dashboard.button("f", "  Find File", ":Telescope find_files<CR>"),
-        dashboard.button("t", "  Find Text", ":Telescope live_grep<CR>"),
+        dashboard.button("g", "  Find Text", ":Telescope live_grep<CR>"),
         dashboard.button("p", "  Project", ":Telescope projects<CR>"),
         dashboard.button("q", "  Quit", ":qa<CR>"),
       }
@@ -99,7 +101,7 @@ local plugins = {
     event = "VeryLazy",
     opts = {
       -- Disable icons in Which Key
-      icons = nil,
+      icon = nil,
     },
     keys = {
       {
