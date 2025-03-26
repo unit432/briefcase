@@ -5,6 +5,9 @@
 
 vim.o.mouse = ""
 
+vim.opt.cursorline = true
+vim.opt.cursorcolumn = true
+
 -- Show line numbers
 vim.o.number = true
 
