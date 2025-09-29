@@ -40,6 +40,8 @@ force-window=yes
 ## Terminal
 https://iterm2.com/downloads.html
 https://github.com/ghostty-org/ghostty?tab=readme-ov-file
+https://github.com/jesseduffield/lazydocker
+https://github.com/jesseduffield/lazygit
 
 #### REF:
 https://github.com/prdanelli/dotfiles
