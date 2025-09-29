@@ -42,6 +42,7 @@ https://iterm2.com/downloads.html
 https://github.com/ghostty-org/ghostty?tab=readme-ov-file
 https://github.com/jesseduffield/lazydocker
 https://github.com/jesseduffield/lazygit
+https://github.com/darrenburns/posting
 
 #### REF:
 https://github.com/prdanelli/dotfiles
